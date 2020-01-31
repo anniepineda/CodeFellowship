@@ -2,6 +2,11 @@ package com.anniePineda.codefellowship;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import java.security.Principal;
+
 
 public class HomeController {
 
@@ -22,3 +27,10 @@ public class HomeController {
 //        note: this will require a self-join on ApplicationUsers.
 //        A user can visit a url (like /feed) to view all of the posts from the users that they follow.
 //        Each post should have a link to the user profile of the user who wrote the post.
+
+
+
+//lab19:
+//Ensure that you can run a single Gradle command to launch your server. Include that command in a README.md file.
+//Complete any remaining tasks from CodeFellowship.
+//Polish your site’s look and feel.
