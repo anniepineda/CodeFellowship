@@ -19,8 +19,7 @@ class CodefellowshipApplicationTests {
 		this.mockMvc.perform(get())
 				.andDo(print())
 				.andExpect(status().isOk())
-				.andExpect()
+				.andExpect();
 	}
-
 
 }
